@@ -1,0 +1,659 @@
+/*
+    Theme name : EliteCorp
+    Theme coder : Abdulrahman Ahmed Saeed
+
+    1st color : #08526d rgb(8, 82, 109)
+    2nd color : #ed1d24
+    
+*/
+body{
+    background-color: #f7f7f7;
+
+}
+/* start upper bar */
+
+    .upper-bar{
+        background-color:#08526d;
+        padding: 10px;
+        color: #fff;
+    }
+    .upper-bar span{
+        color: #bfc6c9
+    }
+
+    .upper-bar .get-quote{
+        display: inline-block;
+        border: 1px solid #ed1d24;
+        padding: 2px 10px;
+        margin-left: 20px;
+    }
+/* end upper bar */
+
+/* start navbar */
+.navbar-brand > span{
+    font-size: 40px;
+}
+.navbar-brand span:first-child{
+    font-weight: bold;
+    color: #08526d;
+}
+.navbar-brand span:last-child{
+    color: #ed1d24;
+}
+
+.navbar-nav .nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #08526d;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ed1d24;
+}
+/* end navbar */
+
+/* start slider */
+.slide .carousel-inner{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.slide .carousel-inner .slide-one{
+    background-image: url("../img/1_5TRuG7tG0KrZJXKoFtHlSg.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+.slide .carousel-inner .slide-two{
+    background-image: url("../img/c50615dd147fe54a4fe6d9a222eac23e.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+.slide .carousel-inner .slide-three{
+    background-image: url("../img/251-2515118_staples-slider-image-iphone-hd-png-download.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+.slide .carousel-inner h1{
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    font-size: 2.5rem;
+    left: 8%;
+    max-width: 900px;
+}
+.slide .carousel-inner h1 span{
+    background-color:  #ed1d24;
+    display: inline-block;
+}
+.slide .carousel-inner .carousel-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide .carousel-inner .slider-one{
+    background-image: url('../img/c50615dd147fe54a4fe6d9a222eac23e.jpg');
+}
+.slide .carousel-inner .slider-two{
+    background-image: url('../img/slider-web-design-website.jpg');
+}
+.slide .carousel-inner .slider-three{
+    background-image: url('../img/quantum-computing-whole-new-kind-of-programmer-1-1068x601.jpg');
+}
+/* this for image brightness to make it dark  */
+.slide .overlayer{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.carousel-dark .carousel-indicators li{
+    background-color: #fff;
+    height: 4px;
+}
+/* end slider */
+
+/* start features */
+.features{
+    padding: 50px 0;
+}
+.features i{
+    text-align: center;
+    background: #ed1d24;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 24px;
+}
+.features p{
+    color: #a8a7a7;
+
+}
+/* end features */
+
+/* start OVERVIEW */
+.overview{
+    background-color: rgb(246, 250, 255);
+    padding: 10%;
+}
+.overview h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    }
+.overview p{
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 90%;
+    color:  #a8a7a7;
+}
+.overview h4{
+    color: #666666;
+    font-size: 30px;
+    margin: 30px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.overview button{
+    color: #fff;
+    background-color: #ed1d24;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: #ed1d24 1px solid;
+}
+/* end OVERVIEW */
+
+/* start featured work */
+.featuredWork{
+    padding: 20px;
+    margin-bottom: 80px;
+}
+.featuredWork ul{
+    padding-bottom: 40px;
+
+}
+.featuredWork h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    }
+.featuredWork p{
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
+    color:  #a8a7a7;
+}
+.featuredWork ul .active{
+    background-color: #ed1d24;
+    color: #fff;
+    border: 1px #ed1d24 solid;
+}
+.featuredWork ul li{
+    display: inline-block;
+    font-size: 14px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: rgb(87, 87, 87);
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border: rgb(158, 158, 158) solid 1px;
+    -webkit-transition: all .3s ease-in-out ; 
+    -moz-transition: all .3s ease-in-out ;    
+    -o-transition: all .3s ease-in-out ;    
+    transition: all .3s ease-in-out ;    
+
+}
+.featuredWork ul li:hover,
+.featuredWork ul li:active {
+    background-color: #ed1d24;
+    color: #fff;
+    border: 1px #ed1d24 solid;
+    cursor: pointer;
+
+}
+.featuredWork .shuffle-imgs .image {
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out ; 
+    -moz-transition: all .5s ease-in-out ;    
+    -o-transition: all .5s ease-in-out ;    
+    transition: all .5s ease-in-out ; 
+}
+.featuredWork .shuffle-imgs  img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+    /* end featured work */
+
+/* start latest work */
+.latestWork{
+    width: 80%;
+    margin: 0 auto;
+}
+.latestWork h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    }
+.latestWork .detail{
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
+    color:  #a8a7a7;
+}
+.latestWork .card{
+    border-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.latestWork .card .card-body{
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.latestWork .card .card-body h5{
+    color: #08526d;
+}
+.latestWork .card .card-body p{
+    color: #969696;
+    font-weight: normal;
+}
+.latestWork .card .card-body p > small{
+    color: #a8a7a7;
+    font-weight: normal;
+}
+.latestWork .card .card-body a{
+    color: #ed1d24;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* end latest work */
+
+/* start testimonials */
+.testimonials{
+    background: url("../img/quantum-computing-whole-new-kind-of-programmer-1-1068x601.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+}
+.testimonials .overlayer{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.testimonials .carousel-caption,
+ .testimonials .carousel-indicators{
+    position: absolute;
+    z-index: 5;
+}
+.testimonials .avatarDiv{
+
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;}
+.testimonials .avatarDiv img{
+    width: 100%;
+    height: auto;
+}
+.testimonials .carousel-item {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* .testimonials .carousel-caption{
+    top: 50%;
+    margin-top: -160px;
+
+
+} */
+.testimonials .carousel-caption h3{
+    margin-bottom: -2px ;
+
+}
+.testimonials .carousel-caption span{
+    font-size: 14px;
+    color: #a8a7a7;
+    
+}
+.testimonials .carousel-caption p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0 0 0;
+    letter-spacing: 2px;
+
+}
+/* .testimonials .carousel-control-prev{
+    background: #000;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    cursor: pointer;
+}
+.testimonials .carousel-control-next{
+    background: #000;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    cursor: pointer;
+} */
+.testimonials .carousel-indicators li{
+background-color: #fff;
+height: 4px;}
+/* end testimonials */
+
+/* start pricing table */
+.pricingTable {
+    margin-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+.pricingTable h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    }
+.pricingTable p{
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
+    color:  #a8a7a7;
+    margin-bottom: 40px;
+}
+.pricingTable .card{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 18px;
+    margin-left: 0;
+}
+.pricingTable .card-body{
+    padding: 0;
+}
+.pricingTable .card .card-title{
+font-size: 28px;
+color: #08526d;
+margin-top: 40px;
+
+}
+.pricingTable .card-body .card-text{
+    font-weight: normal;
+    color: #a8a7a7;
+    margin-top: -4px;
+    font-size: 16px;
+}
+.pricingTable .price{
+    background-color: #f7f7f7;
+    font-size: 40px;
+    font-weight: bold;
+    color: #08526d;
+
+}
+.pricingTable .card-body .price >span{
+    font-size: 18px;
+    font-weight: normal;
+}
+.pricingTable .list-group-item, .pricingTable .list-group{
+    border: none;
+}
+.pricingTable .card-link{
+    display: inline-block;
+    background-color: #ed1d24;
+    color: #fff;
+    margin: 20px 0 40px 0;
+    padding: 12px 40px;
+    font-size: 14px ;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pricingTable .card.corporate .card-link{
+    background-color: #08526d;
+    color: #fff;
+    cursor: pointer;
+}
+.pricingTable .card.corporate .price{
+    background-color: #ed1d24;
+    color: #fff;
+}
+.pricingTable .card:hover{
+    position: relative;
+    top: -20px;
+    box-shadow: 5px 10px 5px #a8a7a7}
+
+/* end pricing table */
+
+/* start Why Choose Us */
+.whyChoose{
+    margin-top: 60px;
+
+}
+.whyChoose .col-md {
+    padding: 0;
+
+}
+.whyChoose .col-md.choose{
+    background-color: #08526d;
+    color: #fff;
+    padding: 3%;
+
+ }
+ .whyChoose .col-md.choose h3{
+    font-size: 40px;
+    margin-bottom: 18px;
+ }
+ .whyChoose .col-md.choose p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5c3c9;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+
+ }
+ .whyChoose .col-md.choose p:last-child{
+     margin-bottom: 20px;
+ }
+ .whyChoose .col-md.choose a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ed1d24;
+    padding: 14px 36px;
+    font-weight: bold;
+ }
+.whyChoose img{
+width: 100%;
+height: 100%;
+}
+/* end Why Choose Us */
+
+/* start static numbers */
+.staticNum{
+margin-top: 80px;
+}
+.staticNum i {
+    font-size: 40px;
+    color: #08526d;
+    margin-bottom: 10px;}
+.staticNum h5{
+    font-size: 40px;
+    font-weight: bold;
+    color: #08526d;
+}
+.staticNum p{
+    color: #ed1d24;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+/* end static numbers */
+
+.contactUs{
+    background-color: #ed1d24;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 2;
+    padding: 80px 0;
+    margin-top: 60px;
+}
+.contactUs p{
+}
+.contactUs a{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    padding: 12px 32px;
+    font-size:18px;
+}
+
+/* start footer */
+.footer{
+    padding: 100px 0;
+    color: rgb(70, 70, 70);
+
+}
+.footer .row div{
+    margin-top: 20px;
+}
+.info span{
+    color: #ed1d24;
+}
+.info span:first-child{
+    font-weight: bold;
+    color: #08526d;
+}
+.info p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+}
+.footer h1{
+    margin-bottom: 40px;
+
+}
+.footer h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #08526d;
+
+}
+.links ul{
+margin-top: -20px;
+}
+
+/* end footer */
+
+/*start end-footer*/
+.endFooter{
+    border-top: 1px solid #d6d6d6;
+}
+.endFooter p{
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #666666;
+    padding-bottom: 0;
+
+    
+}
+.endFooter .row{
+    padding-top: 10px;
+}
+.endFooter ul{
+    padding: 0 ;
+}
+.endFooter .sam{
+    text-align: right;
+}
+.endFooter ul li{
+    display: inline;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.endFooter ul li a{
+    text-decoration: none;
+    color: #666666;
+
+}
+/*end end-footer*/
