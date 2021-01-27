@@ -60,12 +60,14 @@ body{
     justify-content: left;
     align-items: center;
 }
+
 .slide .carousel-inner .slide-one{
     background-image: url("../img/1_5TRuG7tG0KrZJXKoFtHlSg.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     position: relative;
     text-align: center;
     padding: 0;
@@ -77,6 +79,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     position: relative;
     text-align: center;
     padding: 0;
@@ -88,6 +91,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     position: relative;
     text-align: center;
     padding: 0;
@@ -97,14 +101,31 @@ body{
     position: absolute;
     z-index: 3;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    line-height: 1.2;
     left: 8%;
     max-width: 900px;
+
+}
+@media (max-width:768px) {
+    .slide .carousel-inner h1{
+        font-size: 3rem;
+        max-width: 100%;
+    }
+}
+@media (max-width:540px) {
+    .slide .carousel-inner h1{
+        font-size: 2rem;
+        max-width: 100%;
+    }
 }
 .slide .carousel-inner h1 span{
-    background-color:  #ed1d24;
+    background-color: #ed1d24;
     display: inline-block;
+    padding: 0px 8px 12px;
+    margin-top: 8px;
 }
+
 .slide .carousel-inner .carousel-item{
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,6 +181,7 @@ body{
     background-color: rgb(246, 250, 255);
     padding: 10%;
 }
+
 .overview h2{
     font-size: 40px;
     font-weight: bold;
@@ -189,6 +211,46 @@ body{
     text-transform: uppercase;
     border: #ed1d24 1px solid;
 }
+@media (max-width:768px) {
+    .overview h2{
+        font-size: 30px;
+        }
+    .overview h4{
+        font-size: 25px; 
+    }
+    .overview button{
+        padding: 10px 25px;
+        font-size: 18px;
+
+    }
+}
+@media (max-width:540px) {
+    .overview{
+        padding: 5%;
+    }
+    .overview h2{
+        font-size: 25px;
+        margin-bottom: 18px;
+
+        }
+    .overview p{
+        margin: 0 auto;
+        font-size: 16px;
+        width:100%;
+        line-height: 1.2;
+
+    }
+    .overview h4{
+        font-size: 25px; 
+        margin: 20px;
+
+    }
+    .overview button{
+        padding: 8px 20px;
+        font-size: 16px;
+
+    }
+}
 /* end OVERVIEW */
 
 /* start featured work */
@@ -213,6 +275,27 @@ body{
     line-height: 1.5;
     width: 80%;
     color:  #a8a7a7;
+}
+@media (max-width:768px) {
+    .featuredWork h2{
+        font-size: 30px;
+        }
+}
+@media (max-width:540px) {
+    .featuredWork{
+        padding: 5%;
+    }
+    .featuredWork h2{
+        font-size: 25px;
+        margin-bottom: 18px;
+
+        }
+    .featuredWork p{
+        font-size: 16px;
+        width:100%;
+        line-height: 1.2;
+        margin-top: 0;
+}
 }
 .featuredWork ul .active{
     background-color: #ed1d24;
@@ -277,6 +360,31 @@ body{
     width: 80%;
     color:  #a8a7a7;
 }
+@media (max-width:768px) {
+    .latestWork h2{
+        font-size: 30px;
+        }
+}
+@media (max-width:540px) {
+    .latestWork{
+        padding: 5%;
+        width: 100%;
+
+    }
+    .latestWork h2{
+        font-size: 25px;
+        margin-bottom: 18px;
+        margin-top: 0;
+
+
+        }
+    .latestWork .detail{
+        font-size: 16px;
+        width:100%;
+        line-height: 1.2;
+        margin-top: 0;
+}
+}
 .latestWork .card{
     border-style: none;
     text-align: left;
@@ -312,6 +420,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     position: relative;
     text-align: center;
     padding: 0;
@@ -374,46 +483,7 @@ body{
     letter-spacing: 2px;
 
 }
-/* .testimonials .carousel-control-prev{
-    background: #000;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    font-size: 30px;
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    line-height: 46px;
-    text-align: center;
-    opacity: 0.8;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    cursor: pointer;
-}
-.testimonials .carousel-control-next{
-    background: #000;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    font-size: 30px;
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    line-height: 46px;
-    text-align: center;
-    opacity: 0.8;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    cursor: pointer;
-} */
+
 .testimonials .carousel-indicators li{
 background-color: #fff;
 height: 4px;}
@@ -430,6 +500,7 @@ height: 4px;}
     font-weight: bold;
     margin-bottom: 30px;
     text-transform: uppercase;
+
     }
 .pricingTable p{
     margin: 30px auto;
@@ -438,6 +509,31 @@ height: 4px;}
     width: 80%;
     color:  #a8a7a7;
     margin-bottom: 40px;
+}
+@media (max-width:768px) {
+    .pricingTable h2{
+        font-size: 30px;
+        }
+}
+
+@media (max-width:540px) {
+    .pricingTable{
+        padding: 5%;
+        width: 100%;
+
+    }
+    .pricingTable h2{
+        font-size: 25px;
+        margin-bottom: 18px;
+        margin-top:30px ;
+
+        }
+    .pricingTable p{
+        font-size: 16px;
+        width:100%;
+        line-height: 1.2;
+        margin-top: 0;
+}
 }
 .pricingTable .card{
     padding-left: 0;
@@ -608,6 +704,17 @@ margin-top: 80px;
     margin-bottom: 24px;
     letter-spacing: 2px;
 }
+.info a:before {
+    font-family: "FontAwesome";
+    content:"\f138";
+    margin-right: 5px;
+}
+.info a{
+    color: #08526d;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
 .footer h1{
     margin-bottom: 40px;
 
@@ -629,26 +736,25 @@ margin-top: -20px;
     border-top: 1px solid #d6d6d6;
 }
 .endFooter p{
-    font-size: 18px;
     font-weight: normal;
     letter-spacing: 2px;
     color: #666666;
-    padding-bottom: 0;
-
+    margin: 0;
     
 }
 .endFooter .row{
-    padding-top: 10px;
+    padding: 16px;
 }
+
 .endFooter ul{
-    padding: 0 ;
+    margin: 0;
 }
 .endFooter .sam{
     text-align: right;
 }
 .endFooter ul li{
     display: inline;
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 30px;
 }
 .endFooter ul li a{
